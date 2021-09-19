@@ -13,4 +13,5 @@
     <string name="et_pw">Password</string>
     <string name="btn_regi">REGISTER</string>
     <string name="tv_reg">  REGISTER USER</string>
+    <string name="tv_profile">Welcome</string>
 </resources>
