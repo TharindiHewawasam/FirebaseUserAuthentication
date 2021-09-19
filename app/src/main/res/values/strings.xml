@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">FirebaseUserAuthentication</string>
+    <string name="tv_heading">CAR2GO</string>
+    <string name="et_email">Email</string>
+    <string name="et_password">Password</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="tv_forgetPass">forget password?</string>
+    <string name="tv_register">Register</string>
+    <string name="tv_regHeading">CAR2GO</string>
+    <string name="et_email2">Email</string>
+    <string name="et_name">Full Name</string>
+    <string name="et_age">Age</string>
+    <string name="et_pw">Password</string>
+    <string name="btn_regi">REGISTER</string>
+    <string name="tv_reg">  REGISTER USER</string>
+</resources>
