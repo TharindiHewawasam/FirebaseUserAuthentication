@@ -50,6 +50,7 @@ public class RegisterUser extends AppCompatActivity implements View.OnClickListe
         et_pw = (EditText)findViewById(R.id.et_pw);
         progressBar = (ProgressBar) findViewById(R.id.progressBar);
 
+
     }
 
     @Override
@@ -137,6 +138,7 @@ public class RegisterUser extends AppCompatActivity implements View.OnClickListe
                         }
                     }
                 });
+
 
     }
 }
