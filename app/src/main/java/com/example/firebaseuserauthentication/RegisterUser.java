@@ -111,7 +111,7 @@ public class RegisterUser extends AppCompatActivity implements View.OnClickListe
         mAuth.createUserWithEmailAndPassword(email, password)
                 .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                     @Override
-                    public void onComplete(@NonNull @org.jetbrains.annotations.NotNull Task<AuthResult> task) {
+                    public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful()){
                             User user = new User(name, age, email);
 
@@ -119,15 +119,15 @@ public class RegisterUser extends AppCompatActivity implements View.OnClickListe
                                     .child(FirebaseAuth.getInstance().getCurrentUser().getUid())
                                     .setValue(user).addOnCompleteListener(new OnCompleteListener<Void>() {
                                 @Override
-                                public void onComplete(@NonNull @NotNull Task<Void> task) {
-                                    if(task.isSuccessful()){
+                                public void onComplete(@NonNull  Task<Void> task) {
+                                     if (task.isSuccessful()){
                                         Toast.makeText(RegisterUser.this,"User has been registered successfully!",Toast.LENGTH_LONG).show();
                                         progressBar.setVisibility(View.GONE);
 
 
                                         //redirect to login layout
                                     }else{
-                                        Toast.makeText(RegisterUser.this, "Failed to regster! Try again!", Toast.LENGTH_LONG).show();
+                                        Toast.makeText(RegisterUser.this, "Failed to register! Try again!", Toast.LENGTH_LONG).show();
                                         progressBar.setVisibility(View.GONE);
                                     }
                                 }

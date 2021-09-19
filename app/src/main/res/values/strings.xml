@@ -14,4 +14,16 @@
     <string name="btn_regi">REGISTER</string>
     <string name="tv_reg">  REGISTER USER</string>
     <string name="tv_profile">Welcome</string>
+    <string name="btn_logout">logout</string>
+    <string name="tv_proEmail">Email Address</string>
+    <string name="tv_proFullName">Full Name</string>
+    <string name="tv_emailFill" />
+    <string name="tv_profullName">Full Name:</string>
+    <string name="tv_fullname" />
+    <string name="tv_age">Age:</string>
+    <string name="tv_agefill" />
+    <string name="greeting" />
+    <string name="et_forEmail" />
+    <string name="et_foremail">Enter your email</string>
+    <string name="btn_reset">Reset Password</string>
 </resources>
